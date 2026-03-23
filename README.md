@@ -11,7 +11,7 @@ A modern, responsive landing page built with Next.js 14, TypeScript, Tailwind CS
 - ♿ **Accessible**: WCAG compliant components
 
 
-### Installation
+
 
 1. Install dependencies:
 ```bash
