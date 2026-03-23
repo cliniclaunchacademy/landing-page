@@ -90,7 +90,13 @@ export default function ApplyPage() {
                 minHeight: '600px'
               }}
             >
-              <iframe src="https://links.cliniclaunchacademy.com/widget/survey/27TLEKVOGcpmEj5tONZv" id="27TLEKVOGcpmEj5tONZv" title="survey"></iframe>
+              <iframe 
+                src="https://links.cliniclaunchacademy.com/widget/survey/27TLEKVOGcpmEj5tONZv"
+                style={{ border: 'none', width: '100%', minHeight: '600px' }}
+                scrolling="no"
+                id="27TLEKVOGcpmEj5tONZv"
+                title="survey"
+              />
             </div>
           </motion.div>
         </div>
