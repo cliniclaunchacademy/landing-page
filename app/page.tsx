@@ -1,7 +1,7 @@
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import CourseModules from '@/components/CourseModules'
-import Faculty from '@/components/Faculty'
+// import Faculty from '@/components/Faculty'
 import SuccessStories from '@/components/SuccessStories'
 // import Testimonials from '@/components/Testimonials'
 import WhyCLA from '@/components/WhyCLA'
