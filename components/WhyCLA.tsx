@@ -55,7 +55,7 @@ export default function WhyCLA() {
         badge: "Learning Hub",
         title: "Professional Course Dashboard",
         description: "Access your complete training library, track your progress, and engage with the community. A premium learning experience designed to accelerate your success.",
-        image: "/mockups/programs.png",
+        // image: "/mockups/programs.png",
       },
     },
     {
