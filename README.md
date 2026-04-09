@@ -7,7 +7,7 @@ A modern, responsive landing page built with Next.js 14, TypeScript, Tailwind CS
 - 📱 **Fully Responsive**: Optimized for all devices and screen sizes
 - ⚡ **Fast Performance**: Built with Next.js 14 and optimized for speed
 - 🎭 **Smooth Animations**: Enhanced with Framer Motion
-- 🎯 **SEO Optimized**: Proper meta tags and semantic HTML
+- 🎯 **SEO Opftimized**: Proper meta tags and semantic HTML
 - ♿ **Accessible**: WCAG compliant components
 
 
