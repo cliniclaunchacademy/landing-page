@@ -7,6 +7,7 @@ import GlassSurface from './ui/GlassSurface'
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [loginHovered, setLoginHovered] = useState(false)
 
   const navItems = [
     { name: 'The System', href: '#curriculum' },
@@ -65,12 +66,20 @@ export default function Header() {
 
             {/* CTA Buttons - Far Right (Desktop Only) */}
             <div className="hidden md:flex items-center gap-3">
-              {/* <a
-                href="https://app.cliniclaunchacademy.com"
-                className="text-sm font-light text-white/80 hover:text-[#b38d38] transition-colors"
+              <a
+                href="https://app.cliniclaunchacademy.com/"
+                onMouseEnter={() => setLoginHovered(true)}
+                onMouseLeave={() => setLoginHovered(false)}
+                className="backdrop-blur-md border border-[#b38d38] rounded-full px-6 py-2 transition-all text-xs font-bold uppercase tracking-wider"
+                style={{
+                  background: loginHovered
+                    ? 'linear-gradient(135deg, #b38d38 0%, #7e5a00 60%, #4a3800 100%)'
+                    : 'rgba(179, 141, 56, 0.1)',
+                  color: loginHovered ? '#ffffff' : '#b38d38',
+                }}
               >
                 Login
-              </a> */}
+              </a>
               <a
                 href="/apply"
                 className="backdrop-blur-md border border-[#544629] rounded-full px-6 py-2 hover:border-[#b38d38] hover:bg-[#b38d38]/10 transition-all flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-white"
