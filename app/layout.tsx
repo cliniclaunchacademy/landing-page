@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
+import SocialProofNotification from '@/components/SocialProofNotification'
 // import Loader from '@/components/Loader'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -101,6 +102,7 @@ export default function RootLayout({
         
         {/* <Loader /> */}
         {children}
+        <SocialProofNotification intervalMs={15000} />
       </body>
     </html>
   )
