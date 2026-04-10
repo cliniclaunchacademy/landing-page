@@ -7,8 +7,6 @@ import GlassSurface from './ui/GlassSurface'
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [loginHovered, setLoginHovered] = useState(false)
-
   const navItems = [
     { name: 'The System', href: '#curriculum' },
     // { name: 'Faculty', href: '#faculty' },
@@ -68,15 +66,7 @@ export default function Header() {
             <div className="hidden md:flex items-center gap-3">
               <a
                 href="https://app.cliniclaunchacademy.com/"
-                onMouseEnter={() => setLoginHovered(true)}
-                onMouseLeave={() => setLoginHovered(false)}
-                className="backdrop-blur-md border border-[#b38d38] rounded-full px-6 py-2 transition-all text-xs font-bold uppercase tracking-wider"
-                style={{
-                  background: loginHovered
-                    ? 'linear-gradient(135deg, #b38d38 0%, #7e5a00 60%, #4a3800 100%)'
-                    : 'rgba(179, 141, 56, 0.1)',
-                  color: loginHovered ? '#ffffff' : '#b38d38',
-                }}
+                className="text-sm font-light text-white/80 hover:text-[#b38d38] transition-colors"
               >
                 Login
               </a>
