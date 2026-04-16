@@ -1,7 +1,7 @@
 
 A modern, responsive landing page built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion.
 
-## Features
+## Featudres
 
 - 🎨 **Modefgdrn Design**: Clean, professional design with smooth animations
 - 📱 **Fully Responsive**: f for all devices and screen sizes
